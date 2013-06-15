@@ -23,6 +23,7 @@
 		806277A31747E07200B22BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8062777E1747E07200B22BB3 /* Foundation.framework */; };
 		806277AB1747E07200B22BB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806277A91747E07200B22BB3 /* InfoPlist.strings */; };
 		806277AE1747E07200B22BB3 /* CalculaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806277AD1747E07200B22BB3 /* CalculaterTests.m */; };
+		806277B91747E12F00B22BB3 /* CalculaterBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 806277B81747E12F00B22BB3 /* CalculaterBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		806277AA1747E07200B22BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806277AC1747E07200B22BB3 /* CalculaterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculaterTests.h; sourceTree = "<group>"; };
 		806277AD1747E07200B22BB3 /* CalculaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculaterTests.m; sourceTree = "<group>"; };
+		806277B71747E12F00B22BB3 /* CalculaterBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculaterBrain.h; sourceTree = "<group>"; };
+		806277B81747E12F00B22BB3 /* CalculaterBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculaterBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				8062778B1747E07200B22BB3 /* CalculaterAppDelegate.h */,
 				8062778C1747E07200B22BB3 /* CalculaterAppDelegate.m */,
 				806277941747E07200B22BB3 /* MainStoryboard.storyboard */,
+				806277B71747E12F00B22BB3 /* CalculaterBrain.h */,
+				806277B81747E12F00B22BB3 /* CalculaterBrain.m */,
 				806277971747E07200B22BB3 /* CalculaterViewController.h */,
 				806277981747E07200B22BB3 /* CalculaterViewController.m */,
 				806277831747E07200B22BB3 /* Supporting Files */,
@@ -274,6 +279,7 @@
 				806277891747E07200B22BB3 /* main.m in Sources */,
 				8062778D1747E07200B22BB3 /* CalculaterAppDelegate.m in Sources */,
 				806277991747E07200B22BB3 /* CalculaterViewController.m in Sources */,
+				806277B91747E12F00B22BB3 /* CalculaterBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				806277B31747E07200B22BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806277B41747E07200B22BB3 /* Build configuration list for PBXNativeTarget "CalculaterTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				806277B61747E07200B22BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

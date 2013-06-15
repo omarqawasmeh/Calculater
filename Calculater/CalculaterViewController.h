@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CalculaterBrain.h"
+@interface CalculaterViewController : UIViewController{
 
-@interface CalculaterViewController : UIViewController
+    CalculaterBrain * Brain;
+    IBOutlet UILabel * display;
+    BOOL userIsInTheMiddleOfTypingANumber;
+}
+
+-(CalculaterBrain *)Brain;
+-(IBAction)digitPressed:(UIButton *)sender;
+-(IBAction)operationPressed:(UIButton *)sender;
 
 @end
